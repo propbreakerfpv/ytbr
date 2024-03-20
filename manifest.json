@@ -1,0 +1,14 @@
+{
+    "name": "Covid-19 Stats UK",
+    "version": "1.0.0",
+    "description": "latest covid data of UK",
+    "manifest_version": 3,
+
+    "content_scripts": [{
+        "js": ["content.js"],
+        "matches": [
+            "https://youtube.com/*",
+            "https://www.youtube.com/*"
+        ]
+    }]
+}
